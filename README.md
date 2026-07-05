@@ -1,3 +1,31 @@
+在 Linux 上干活时偏偏要用 Windows 应用，往往只能切回 Windows，一来一回把节奏全打断。
+
+现在有个更省心的办法：开源工具 WinBoat，让你在 Linux 里直接跑 Windows 应用，不必再频繁切系统。
+
+它把 Windows 作为虚拟机塞进 Docker，并和 Linux 桌面做了深度整合：Windows 应用能以原生窗口的形式直接出现在你的 Linux 桌面上，还能和本机文件系统互通。
+
+GitHub：github.com/TibixDev/winbo…
+
+官网：winboat.app
+
+主要功能：
+- 界面简洁，Windows 应用自然融入 Linux 桌面
+- 安装流程自动化，选好配置即可一键部署
+- 几乎可运行任意 Windows 应用，原生窗口显示
+- 支持进入完整 Windows 桌面，需要时随时切换
+- 文件系统集成，Linux 目录可自动挂载到 Windows
+
+使用条件：
+- Linux 至少 4GB 内存
+- 已开启 KVM 虚拟化
+- 已安装 Docker
+
+获取方式：
+到项目 Releases 页面下载 AppImage，解压安装后即可使用。
+
+
+
+
 <div align="left">
   <table>
     <tr>
